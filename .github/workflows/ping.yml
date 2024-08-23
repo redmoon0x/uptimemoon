@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Ping server
       run: |
-        curl -sS --retry 3 https://your-render-app-url.onrender.com/keepalive
+        curl -sS --retry 3 https://namibot.onrender.com/keepalive
