@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Ping server
       run: |
-        curl -sS --retry 3 https://namiapi.onrender.com/
+        curl -sS --retry 3 https://namiapi.onrender.com/ping -o /dev/null || echo "Ping failed"
