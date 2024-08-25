@@ -6,7 +6,7 @@
     <title>Uptime Pinger</title>
     <script>
         function pingServer() {
-            fetch('https://namibot.onrender.com/keepalive')
+            fetch('https://namiapi.onrender.com/')
                 .then(response => response.text())
                 .then(data => {
                     console.log('Ping successful:', data);
